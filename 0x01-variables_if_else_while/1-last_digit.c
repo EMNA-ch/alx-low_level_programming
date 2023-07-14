@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - a C program that prints the last digit of the number
+ * Return: 0(Success)
+ */
+int main(void)
+{
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if ((n % 10) > 5)
+printf("The las digit of %d is %d and and is greater than 5\n", n, n % 10);
+else if (((n % 10) < 6) && ((n % 10) != 0))
+printf("The last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+else
+printf("The last digit of %d is zero\n", n);
+return (0);
+}
