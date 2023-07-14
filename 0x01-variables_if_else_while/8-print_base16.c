@@ -14,7 +14,7 @@ n++;
 }
 while (alphabet <= 'f')
 {
-putchar(letter);
+putchar(alphabet);
 alphabet++;
 }
 putchar('\n');
