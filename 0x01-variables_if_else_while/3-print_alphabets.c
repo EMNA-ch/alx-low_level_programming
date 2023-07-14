@@ -13,6 +13,7 @@ while (alphabet1 <= 'z')
 {
 putchar(alphabet1);
 alphabet1++;
+}
 while (alphabet2 <= 'Z')
 {
 putchar(alphabet2);
