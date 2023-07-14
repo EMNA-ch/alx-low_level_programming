@@ -11,6 +11,6 @@ while (alphabet <= 'z')
 putchar(alphabet);
 alphabet++;
 }
-putchat('\n');
+putchar('\n');
 return (0);
 }
