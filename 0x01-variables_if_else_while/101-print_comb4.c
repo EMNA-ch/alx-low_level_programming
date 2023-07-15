@@ -17,8 +17,9 @@ num[0] = i + '0';
 num[1] = j + '0';
 num[2] = k + '0';
 num[3] = '\0';
-putchar("%s\n", num);
+putchar(num);
 }
 }
+putchar('\n');
 return (0);
 }
