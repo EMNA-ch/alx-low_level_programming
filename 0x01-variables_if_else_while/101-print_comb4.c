@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int num[4];
+char num[4];
 int i, j, k;
 for (i = 0; i < 8; i++)
 {
@@ -17,7 +17,7 @@ num[0] = i + '0';
 num[1] = j + '0';
 num[2] = k + '0';
 num[3] = '\0';
-putchar(num);
+printf("%s\n", num);
 }
 }
 }
