@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char num[4];
+int num[4];
 int i, j, k;
 for (i = 0; i < 8; i++)
 {
