@@ -5,7 +5,6 @@
  */
 int main(void)
 {
-char num[4];
 int i, j, k;
 for (i = 0; i < 8; i++)
 {
@@ -13,11 +12,12 @@ for (j = i + 1; j < 9; j++)
 {
 for (k = j + 1; k < 10; k++)
 {
-num[0] = i + '0';
-num[1] = j + '0';
-num[2] = k + '0';
-num[3] = '\0';
-putchar("%s", num);
+putchar((i % 10) + '0');
+putchar((j % 10) + '0');
+putchar((k % 10) + '0');
+if (i == 7 && j == 8 && k == 9)
+putchar(',');
+putchar(' ');
 }
 }
 }
