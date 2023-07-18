@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <main.h>
+#include <unistd.h>
+#include "main.h"
 /**
- * main - a program that prints _putchar.
- * Return: 0(Success)
+ * _putchar - a program that writes a character c to stdout.
+ * @c: the character to write
+ * Return: 1(Success)
+ * error: -1 is returned.
  */
-int main(void)
+int _putchar(char c)
 {
-putchar("\n");
-return (0);
+return (write(1, $c, 1));
 }
