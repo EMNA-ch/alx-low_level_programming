@@ -19,6 +19,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 	}
-	printf("%.0f\n", sum_t)
+	printf("%.0f\n", sum_t);
 	return (0);
 }
