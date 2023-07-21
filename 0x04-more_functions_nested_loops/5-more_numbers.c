@@ -2,6 +2,7 @@
 
 /**
  * more_numbers - prints 10 times the numbers, from 0 to 14.
+ * Return: 0(Success).
  */
 
 void more_numbers(void)
@@ -15,7 +16,7 @@ void more_numbers(void)
 			num = count;
 			if (count > 9)
 			{
-				_putchar(1 = '0');
+				_putchar(1 + '0');
 				num = count % 10;
 			}
 			_putchar(num + '0');
