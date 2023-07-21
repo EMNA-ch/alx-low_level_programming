@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_lin -  draws a straight line in the terminal.
+ * print_line -  draws a straight line in the terminal.
  * @n: The number of times the character
  */
 
@@ -23,4 +23,3 @@ void print_line(int n)
 	}
 
 }
-
