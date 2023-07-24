@@ -2,6 +2,7 @@
 #define main_h
 
 #include <stdio>
+#include <unistd.h>
 
 int _putcha(char c);
 void reset_to_98(int *n);
