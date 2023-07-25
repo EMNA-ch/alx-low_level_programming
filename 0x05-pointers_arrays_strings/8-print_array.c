@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * print_array - prints n elements of an array of integers
  * followed by a new line.
  * @a: the name of the array.
  * @n: the number of elements of the array to be printed.
  */
-
 void print_array(int *a, int n)
 {
 	int i;
@@ -18,5 +16,5 @@ void print_array(int *a, int n)
 		else
 			printf("%d", a[i]);
 	}
-	printf('\n');
+	printf("\n");
 }	
